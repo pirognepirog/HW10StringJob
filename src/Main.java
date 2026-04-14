@@ -2,9 +2,25 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+    //Задача 1
+        System.out.println("Задача 1");
+        String firstName = "Ivanov";
+        String middleName = "Ivan";
+        String lastName = "Ivanovich";
+        String fullName = "";
+        fullName = firstName + " " + middleName + " " + lastName;
+        System.out.println("Ф. И. О. сотрудника — " + fullName);
+
+        //Задача 2
+        System.out.println("Задача 2");
+        System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета — " + fullName.toUpperCase());
+
+        //Задача 3
+        System.out.println("Задача 3");
+        fullName = "Иванов Семён Семёнович";
+        System.out.println(fullName.replace("ё","е"));
+
+
 
     }
 }
